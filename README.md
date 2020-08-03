@@ -1,6 +1,11 @@
-# my-proj
+# sci-tings-vue
 
 ## Project setup
+```
+git clone https://github.com/jay-jain/sci-tings-vue.git
+cd sci-tings-vue
+```
+
 ```
 npm install
 ```
