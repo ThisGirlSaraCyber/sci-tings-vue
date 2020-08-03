@@ -1,12 +1,20 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+  <div id="app"> 
+    <my-nav></my-nav>
     <router-view/>
   </div>
 </template>
+
+<script>
+import MyNav from './components/MyNav.vue';
+export default {
+  
+  
+  components: {
+    myNav: MyNav
+  }
+}
+</script>
 
 <style>
 #app {
@@ -15,6 +23,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color:#e9ecef;
+  padding-bottom: 10px;
 }
 
 #nav {
